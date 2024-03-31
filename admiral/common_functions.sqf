@@ -132,6 +132,7 @@ adm_common_fnc_setGear = {
     params ["_unit"];
 
     [_unit] call adm_common_fnc_assignNVG;
+    [_unit] call adm_common_fnc_removeHandgun;
 };
 
 adm_common_fnc_assignNVG = {
@@ -145,6 +146,18 @@ adm_common_fnc_assignNVG = {
         };
     } else {
         _unit unlinkItem _hmd;
+    };
+};
+
+adm_common_fnc_removeHandgun = {
+    params ["_unit"];
+
+    private _handgun = handgunWeapon _unit;
+
+    if (adm_removeHandguns) then {
+        if (_handgun isNotEqualTo "") then {
+            _unit removeWeapon _handgun;
+        };
     };
 };
 
