@@ -174,7 +174,7 @@ class UnitTemplates {
         crewmen[] = {"MNP_ROK_Soldier_O"};
         pilots[] = {"MNP_ROK_Soldier_O"};
         technicals[] = {"CUP_B_nM1025_M2_USA_DES", "CUP_B_nM1025_M2_USA_DES", "CUP_B_nM1025_M2_USA_DES", "CUP_B_nM1025_Mk19_USA_DES"};
-        armour[] = {"CUP_B_M113A1_olive_USA", "CUP_B_M113A3_olive_USA", "CUP_B_M163_Vulcan_USA"};
+        armour[] = {"CUP_B_M113A1_olive_USA", "CUP_B_M113A3_olive_USA"};
         th[] = {"CUP_B_UH60S_USN"};
         ah[] = {"CUP_B_AH1Z_Dynamic_USMC"};
     };
@@ -186,7 +186,7 @@ class UnitTemplates {
         crewmen[] = {"MNP_ROKMC_A"};
         pilots[] = {"MNP_ROKMC_A"};
         technicals[] = {"CUP_B_nM1025_M2_USA_DES", "CUP_B_nM1025_M2_USA_DES", "CUP_B_nM1025_M2_USA_DES", "CUP_B_nM1025_Mk19_USA_DES"};
-        armour[] = {"CUP_B_M113A1_olive_USA", "CUP_B_M113A3_olive_USA", "CUP_B_M163_Vulcan_USA"};
+        armour[] = {"CUP_B_M113A1_olive_USA", "CUP_B_M113A3_olive_USA"};
         th[] = {"CUP_B_UH60S_USN"};
         ah[] = {"CUP_B_AH64D_DL_USA"};
     };
