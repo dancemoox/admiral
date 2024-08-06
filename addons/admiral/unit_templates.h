@@ -712,7 +712,7 @@ class UnitTemplates {
         camouflage[] = {"woodland"};
         infantry[] = {"CUP_O_INS_Soldier_GL", "CUP_O_INS_Soldier_GL", "CUP_O_INS_Soldier_AK74", "CUP_O_INS_Soldier", "CUP_O_INS_Soldier_AT", "CUP_O_INS_Soldier_AR", "CUP_O_INS_Soldier_MG", "CUP_O_INS_Medic"};
         crewmen[] = {"CUP_O_INS_Crew"};
-        pilots[] = {"wb_sla_airforce_pilot_pm_wdl"};
+        pilots[] = {"CUP_O_INS_Pilot"};
         technicals[] = {"CUP_O_UAZ_MG_CHDKZ", "CUP_O_UAZ_MG_CHDKZ", "CUP_O_UAZ_AGS30_CHDKZ", "CUP_O_UAZ_SPG9_CHDKZ", "CUP_O_Ural_ZU23_CHDKZ"};
         armour[] = {"CUP_O_BTR60_CHDKZ", "CUP_O_T55_CHDKZ", "CUP_O_BRDM2_CHDKZ", "CUP_O_MTLB_pk_ChDKZ", "CUP_O_BMP2_CHDKZ", "CUP_O_T72_CHDKZ", "CUP_O_BTR80_CHDKZ", "CUP_O_BTR80A_CHDKZ"};
         th[] = {"CUP_O_Mi8_CHDKZ"};
