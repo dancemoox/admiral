@@ -682,13 +682,37 @@ class UnitTemplates {
         th[] = {"CUP_O_Mi8_SLA_1"};
         ah[] = {"CUP_O_Mi24_D_SLA"};
     };
+	
+	class WB_SLA_CAM {
+        side = "east";
+        camouflage[] = {"woodland", "desert"};
+        infantry[] = {"wb_sla_army_squadleader_mpikm72_p2a1_wdl", "wb_sla_army_rifleman_mpikm72_wdl", "wb_sla_army_radioman_mpikm72_wdl", "wb_sla_army_antitank_mpikm72_rpg7_wdl", "wb_sla_army_antitank_assistant_mpikm72_rpg7_wdl", "wb_sla_army_machinegunner_rpk_wdl", "wb_sla_army_machinegunner_assistant_mpikm72_rpk_wdl", "wb_sla_army_machinegunner_hmgpkm_wdl", "wb_sla_army_machinegunner_assistant_mpikm72_pkm_wdl", "wb_sla_army_medic_mpikm72_wdl", "wb_sla_army_reserve_mpikm72_wdl", "wb_sla_army_reserve_radioman_mpikm72_wdl"};
+        crewmen[] = {"wb_sla_army_crew_mpikm72_wdl"};
+        pilots[] = {"wb_sla_airforce_pilot_pm_wdl"};
+        technicals[] = {"wb_sla_army_uaz469_dshkm_oli", "wb_sla_army_uaz469_spg9_oli"};
+        armour[] = {"wb_sla_army_pt76b_oli", "wb_sla_army_t55_oli", "wb_sla_army_t55a_oli", "wb_sla_army_t55ak_oli", "wb_sla_army_brdm2_oli", "wb_sla_army_btr60pb_oli"};
+        th[] = {"wb_sla_airforce_mi2t_oli"};
+        ah[] = {"wb_sla_airforce_mi2urn_oli"};
+    };
+	
+	class WB_SLA_REG {
+        side = "east";
+        camouflage[] = {"woodland", "desert"};
+        infantry[] = {"wb_sla_army_squadleader_mpikm72_p2a1_wdl", "wb_sla_army_rifleman_mpikm72_wdl", "wb_sla_army_radioman_mpikm72_wdl", "wb_sla_army_antitank_mpikm72_rpg7_wdl", "wb_sla_army_antitank_assistant_mpikm72_rpg7_wdl", "wb_sla_army_machinegunner_rpk_wdl", "wb_sla_army_machinegunner_assistant_mpikm72_rpk_wdl", "wb_sla_army_machinegunner_hmgpkm_wdl", "wb_sla_army_machinegunner_assistant_mpikm72_pkm_wdl", "wb_sla_army_medic_mpikm72_wdl", "wb_sla_army_reserve_mpikm72_wdl", "wb_sla_army_reserve_radioman_mpikm72_wdl"};
+        crewmen[] = {"wb_sla_army_crew_mpikm72_wdl"};
+        pilots[] = {"wb_sla_airforce_pilot_pm_wdl"};
+        technicals[] = {"wb_sla_army_uaz469_dshkm_oli", "wb_sla_army_uaz469_spg9_oli"};
+        armour[] = {"wb_sla_army_pt76b_oli", "wb_sla_army_t55_oli", "wb_sla_army_t55a_oli", "wb_sla_army_t55ak_oli", "wb_sla_army_brdm2_oli", "wb_sla_army_btr60pb_oli"};
+        th[] = {"wb_sla_airforce_mi2t_oli"};
+        ah[] = {"wb_sla_airforce_mi2urn_oli"};
+    };
 
     class CUP_CHDKZ {
         side = "east";
         camouflage[] = {"woodland"};
         infantry[] = {"CUP_O_INS_Soldier_GL", "CUP_O_INS_Soldier_GL", "CUP_O_INS_Soldier_AK74", "CUP_O_INS_Soldier", "CUP_O_INS_Soldier_AT", "CUP_O_INS_Soldier_AR", "CUP_O_INS_Soldier_MG", "CUP_O_INS_Medic"};
         crewmen[] = {"CUP_O_INS_Crew"};
-        pilots[] = {"CUP_O_INS_Pilot"};
+        pilots[] = {"wb_sla_airforce_pilot_pm_wdl"};
         technicals[] = {"CUP_O_UAZ_MG_CHDKZ", "CUP_O_UAZ_MG_CHDKZ", "CUP_O_UAZ_AGS30_CHDKZ", "CUP_O_UAZ_SPG9_CHDKZ", "CUP_O_Ural_ZU23_CHDKZ"};
         armour[] = {"CUP_O_BTR60_CHDKZ", "CUP_O_T55_CHDKZ", "CUP_O_BRDM2_CHDKZ", "CUP_O_MTLB_pk_ChDKZ", "CUP_O_BMP2_CHDKZ", "CUP_O_T72_CHDKZ", "CUP_O_BTR80_CHDKZ", "CUP_O_BTR80A_CHDKZ"};
         th[] = {"CUP_O_Mi8_CHDKZ"};
@@ -981,6 +1005,30 @@ class UnitTemplates {
         armour[] = {"CUP_I_M113A1_RACS", "CUP_I_LAV25M240_RACS", "CUP_I_AAV_RACS", "CUP_I_M60A3_TTS_RACS", "CUP_B_M1A2SEP_RACS", "CUP_B_M1A2SEP_TUSK_RACS"};
         th[] = {"CUP_I_UH60L_RACS"};
         ah[] = {"CUP_I_AH6J_RACS"};
+    };
+	
+	class WB_RACS_REG {
+        side = "west";
+        camouflage[] = {"woodland", "desert"};
+        infantry[] = {"wb_racs_army_squadleader_m16a1_p2a1_bei", "wb_racs_army_rifleman_m16a1_bei", "wb_racs_army_antitank_m16a1_pzf44_bei", "wb_racs_army_antitank_assistant_m16a1_bei", "wb_racs_army_machinegunner_mg3_bei", "wb_racs_army_machinegunner_assistant_m16a1_bei", "wb_racs_army_machinegunner_mg3_bei", "wb_racs_army_machinegunner_assistant_m16a1_bei", "wb_racs_army_medic_m16a1_bei"};
+        crewmen[] = {"wb_racs_army_crew_mp5a3_bei"};
+        pilots[] = {"wb_racs_army_pilot_p1_bei"};
+        technicals[] = {"CUP_I_LR_MG_RACS"};
+        armour[] = {"CUP_I_M113A1_RACS", "CUP_I_LAV25M240_RACS", "CUP_I_AAV_RACS", "CUP_I_M60A3_TTS_RACS", "CUP_B_M1A2SEP_RACS", "CUP_B_M1A2SEP_TUSK_RACS"};
+        th[] = {"CUP_I_UH1H_Slick_RACS"};
+        ah[] = {"CUP_I_UH1H_gunship_RACS"};
+    };
+	
+	class WB_RACS_HG {
+        side = "west";
+        camouflage[] = {"woodland", "desert"};
+        infantry[] = {"wb_racs_army_homeland_guard_squadleader_m16a1_p2a1_mix", "wb_racs_army_homeland_guard_m16a1_mix", "wb_racs_army_homeland_guard_g3a3_mix", "wb_racs_army_homeland_guard_radioman_m16a1_mix", "wb_racs_army_homeland_guard_antitank_m16a1_pzf44_mix", "wb_racs_army_homeland_guard_antitank_assistant_m16a1_mix", "wb_racs_army_homeland_guard_machinegunner_mg3_mix", "wb_racs_army_homeland_guard_machinegunner_assistant_m16a1_mix", "wb_racs_army_homeland_guard_medic_m16a1_mix"};
+        crewmen[] = {"wb_racs_army_crew_mp5a3_bei"};
+        pilots[] = {"wb_racs_army_pilot_p1_bei"};
+        technicals[] = {"CUP_I_LR_MG_RACS"};
+        armour[] = {"wb_racs_leopard1a1_bei", "wb_racs_leopard1a1a1_bei", "wb_racs_m113a1dk_apc_bei", "wb_racs_m113a1dk_command_bei", "wb_racs_m113a1g_apc_milan_bei"};
+        th[] = {"CUP_I_UH1H_Slick_RACS"};
+        ah[] = {"CUP_I_UH1H_gunship_RACS"};
     };
 
     class CUP_TK_LOC {
